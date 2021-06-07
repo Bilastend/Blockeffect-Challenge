@@ -11,7 +11,7 @@
 
     <name>BlockEffect</name>
 
-    <description>Get a random effect on blockt types</description>
+    <description>Get a random effect on different block types</description>
     <properties>
         <java.version>15</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,7 +41,6 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputDirectory>/home/bilal/Projekte/Spigot/Server/plugins</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
