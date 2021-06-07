@@ -18,6 +18,7 @@ public class OnDeath implements Listener {
         int taskID = Main.getInstance().getManager().getTaskID();
         if(taskID != -1){
             Bukkit.getScheduler().cancelTask(taskID);
+            Main.getInstance().getManager().setTaskID(-1);
         }
     }
 }
