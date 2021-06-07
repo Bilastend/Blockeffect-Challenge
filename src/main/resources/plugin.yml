@@ -1,0 +1,11 @@
+name: BlockEffect
+version: ${project.version}
+main: com.bilastend.blockeffect.Main
+api-version: 1.16
+authors: [ Bilastend ]
+description: Get a random effect on blockt types
+website: github.com/Bilastend
+
+commands:
+  blockeffect:
+    permission: blockeffect.commands.blockeffect
