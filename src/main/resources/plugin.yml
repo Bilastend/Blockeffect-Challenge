@@ -3,7 +3,7 @@ version: ${project.version}
 main: com.bilastend.blockeffect.Main
 api-version: 1.16
 authors: [ Bilastend ]
-description: Get a random effect on blockt types
+description: Get a random effect on different block types
 website: github.com/Bilastend
 
 commands:
