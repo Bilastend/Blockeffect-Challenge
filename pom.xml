@@ -41,7 +41,6 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputDirectory>/home/bilal/Projekte/Spigot/Server/plugins</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
