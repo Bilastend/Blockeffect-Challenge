@@ -25,6 +25,7 @@ public class Commands implements CommandExecutor {
     }
 
      public boolean startCh(CommandSender sender){
+        if(Main.getInstance().getManager().getTaskID() != -1)return true;
         Main.getInstance().getManager().timer();
         sender.sendMessage("Challenge gestartet");
         return true;
@@ -34,6 +35,7 @@ public class Commands implements CommandExecutor {
         int taskID = Main.getInstance().getManager().getTaskID();
         if(taskID == -1) return true;
         Bukkit.getScheduler().cancelTask(taskID);
+        Main.getInstance().getManager().setTaskID(-1);
         sender.sendMessage("Challenge gestoppt");
         return true;
     }

@@ -63,6 +63,10 @@ public class Manager {
         }, 0, 21);
     }
 
+    public void setTaskID(int taskID) {
+        this.taskID = taskID;
+    }
+
     public void setShuffleOnDamage(boolean shuffleOnDamage) {
         this.shuffleOnDamage = shuffleOnDamage;
     }
